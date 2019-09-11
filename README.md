@@ -15,12 +15,34 @@ Further analysis of the data is readily available and could include
 details like which directors, screenwriters and producers to looks for,
 which crew to hire (down to sound directors and costume designers).
 However some further information is required first to narrow down the
-vast possibilities availble:
+vast possibilities available:
 
  - what is the range of budget available?
- 
- - are we looking for a safe modest profit or are we targeting a larger
- profit
- 
+
+ - are we looking for a safe, modest profit or are we targeting a larger
+ profit?
+
  - is producing in another country a viable option? (e.g. China or Japan)
 
+## Collaborators:
+ - *Sorin Luca*
+ - *Anastasia Kharina*
+
+ ## Data Source:  
+
+We used two dataframes, both downloaded from https://www.kaggle.com/rounakbanik/the-movies-dataset
+ - movies_metadata.csv
+ - credits.csv
+
+ ## Repository Map:
+
+Notebooks:
+ - Data_Processing.ipynb : Data import, cleaning, and Data_Processing
+ - Technical_Notebook.ipynb : Data visualization and Analysis
+ - 1A-bokeh : Code source for annotated view of data
+ - 1B-hollowviews : Code source for hollow views
+
+ Others:
+ - New_Movie_Advice.pdf : An overview presentation of all data visualizations
+
+ 
